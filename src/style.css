@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  max-width: 1000px;
+}
+
+main {
+  padding: 2.25rem;
+}
+
+.nav {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.nav--logo {
+  height: 1.6rem;
+  padding-left: 1.25rem;
+  padding-right: 0.4rem;
+}
+
+.nav--title{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  margin-right: auto;
+}
+
+.nav--subtitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+  text-align: right;
+  color: #FFFFFF;
+  padding-right: 2rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form--input {
+  border-radius: 5px;
+  height: 2rem;
+  border: solid 1px #D5D4D8;
+  text-indent: 1rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: #0D0D0D;
+}
+
+.button {
+  display: block;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  height: 2.5rem;
+  grid-column: 1 / 3;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  cursor: pointer;
+  }
